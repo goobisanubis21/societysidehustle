@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link, useHistory } from 'react-router-dom';
+import {Button} from 'react-bootstrap'
 import './homeComp.css';
 
 import {useAuth} from "../../context/AuthContext"
@@ -26,6 +27,9 @@ function HomeComp() {
         <div>
             <div className='home-main'>
                 home page
+            </div>
+            <div>
+                <Button variant="link" onClick={handleLogout}>Log Out</Button>
             </div>
         </div>
     )
