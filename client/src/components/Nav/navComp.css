@@ -25,6 +25,16 @@ div nav {
     height: 80px;
 }
 
+.logoutBtn {
+    text-decoration: none !important;
+    font-size: 15px !important;
+}
+
+.logoutBtnDiv {
+    position: absolute;
+    right: 0;
+}
+
 @media screen and (max-width: 991.33px) {
     .nav-logo {
         margin-top: 0;
@@ -36,5 +46,18 @@ div nav {
 
     .nav-item {
         margin-right: 0;
+    }
+
+    .searchTag {
+        margin: 0;
+        margin-left: -18px;
+    }
+
+    .searchTag button {
+        margin-left: -15px;
+    }
+
+    .logoutBtnDiv {
+        position: relative;
     }
 }

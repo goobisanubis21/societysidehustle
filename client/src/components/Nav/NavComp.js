@@ -4,6 +4,7 @@ import { Button } from 'react-bootstrap'
 
 import { useAuth } from '../../context/AuthContext';
 import './navComp.css';
+import SearchComp from '../SearchComp/SearchComp'
 
 function NavComp() {
 
@@ -45,7 +46,12 @@ function NavComp() {
                         <li className="nav-item">
                             <Link to='/contact'><div className="nav-link">Contact Us</div></Link>
                         </li>
-                        <Button className='logoutBtn' variant="link" onClick={handleLogout}>Log Out</Button>
+                        <div className='searchTag'>
+                            <SearchComp />
+                        </div>
+                        <div className='logoutBtnDiv'>
+                            <Button className='logoutBtn' variant="link" onClick={handleLogout}>Log Out</Button>
+                        </div>
                     </ul>
                 </div>
             </nav>
