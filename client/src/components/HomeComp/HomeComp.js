@@ -3,8 +3,6 @@ import './homeComp.css';
 
 function HomeComp() {
 
-    
-
     return (
         <div>
             <div className='home-main'>

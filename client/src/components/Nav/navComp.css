@@ -2,6 +2,10 @@
     font-family: 'Amatic SC', cursive;
 }
 
+.nav-item {
+    margin-right: 30px;
+}
+
 .nav-logo {
     width: 50px;
     margin-left: 10px;
@@ -28,5 +32,9 @@ div nav {
 
     div nav {
         height: auto;
+    }
+
+    .nav-item {
+        margin-right: 0;
     }
 }

@@ -39,6 +39,12 @@ function NavComp() {
                         <li className="nav-item">
                             <Link to='/'><div className="nav-link">Home</div></Link>
                         </li>
+                        <li className="nav-item">
+                            <Link to='/mission'><div className="nav-link">Our Mission</div></Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link to='/contact'><div className="nav-link">Contact Us</div></Link>
+                        </li>
                         <Button className='logoutBtn' variant="link" onClick={handleLogout}>Log Out</Button>
                     </ul>
                 </div>

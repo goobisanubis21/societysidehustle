@@ -1,16 +1,15 @@
 import React from 'react';
 
 import NavComp from '../components/Nav/NavComp';
-import HomeComp from '../components/HomeComp/HomeComp'
+import ContactComp from '../components/ContactComp/ContactComp'
 
-
-function Home() {
+function Contact() {
     return (
         <div>
             <NavComp />
-            <HomeComp/>
+            <ContactComp />
         </div>
     )
 }
 
-export default Home
+export default Contact
